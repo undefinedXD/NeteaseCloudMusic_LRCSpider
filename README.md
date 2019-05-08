@@ -17,7 +17,7 @@
 提取的民谣歌词高频词云图：
 
 
-![](https://github.com/cheerway6/NeteaseCloudMusic_LRCSpider/blob/master/res4.png?raw=true)
+![](https://github.com/cheerway6/NeteaseCloudMusic_LRCSpider/blob/master/res6.png?raw=true)
 
 ---
 ## 执行步骤
