@@ -1,12 +1,8 @@
 # encoding : utf-8
-import time
-import os
-import csv
 import requests
 import re
 import pymysql
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import traceback
 
 # 从歌单直接导入歌曲并标记歌曲种类的方法

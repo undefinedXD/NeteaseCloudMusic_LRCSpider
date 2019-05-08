@@ -1,14 +1,10 @@
 # encoding : utf-8
 import time
-import os
-import csv
 import re
 import requests
 import json
 import pymysql
 import random
-from bs4 import BeautifulSoup
-from selenium import webdriver
 from lrc_clean import lrc_clean_function
 
 # lrc接口

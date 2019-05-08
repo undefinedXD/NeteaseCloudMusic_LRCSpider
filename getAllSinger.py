@@ -1,11 +1,7 @@
 # encoding : utf-8
 import time
-import os
-import csv
-import requests
 import re
 import pymysql
-from bs4 import BeautifulSoup
 from selenium import webdriver
 
 
