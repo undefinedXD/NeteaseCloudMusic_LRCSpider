@@ -8,7 +8,7 @@ with open('get_comment.js', 'r', errors='ignore') as f:
 
 def readinDB():
     ctx = execjs.compile(jscode)
-    db = pymysql.connect("localhost", "root", "zz123456", "MUSIC163")    
+    db = pymysql.connect("localhost", "username", "password", "MUSIC163")    
     cursor = db.cursor()
     sql = """select * from SONG_INFO"""
     sql2 = """DELETE FROM `MUSIC163`.`SONG_INFO`  WHERE `SONG_ID` = %s; """
